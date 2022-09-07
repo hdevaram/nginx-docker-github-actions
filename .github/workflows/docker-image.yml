@@ -8,8 +8,9 @@ on:
 
 # Env variable
 env:
-  DOCKER_USER: ${{secrets.DOCKER_USER}}
-  DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
+  DOCKERHUB_USER: ${{secrets.DOCKERHUB_USER}}
+  DOCKERHUB_PASSWORD: ${{secrets.DOCKERHUB_PASSWORD}}
+  DOCKERHUB_TOKEN: ${{SECRETS.DOCKERHUB_TOKEN}}
   REPO_NAME: ${{secrets.REPO_NAME}}
 
 jobs:
